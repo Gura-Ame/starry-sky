@@ -1,6 +1,6 @@
 {
   "name": "@gura_ame/starry-sky",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

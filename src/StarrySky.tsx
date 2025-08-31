@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './starry-sky.css';
+import bgTree from './images/bgTree.png'
+import bgMoon from './images/bgMoon.png'
 
 interface StarrySkyProps {
   /** 星星數量 */
@@ -25,8 +27,8 @@ const StarrySky: React.FC<StarrySkyProps> = ({
   meteorInterval = [24000, 30000],
   showMoon = true,
   showForest = true,
-  forestImageSrc = "bgTree.png",
-  moonTextureSrc = "bgMoon.png",
+  forestImageSrc = bgTree,
+  moonTextureSrc = bgMoon,
   className = "",
   style = {}
 }) => {

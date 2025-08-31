@@ -1,4 +1,4 @@
-# @gura_ame/starry-sky ⭐
+# Gura-Ame/starry-sky ⭐
 
 A beautiful React component that creates an animated starry night sky with twinkling stars, meteors, moon, and forest silhouette.
 
